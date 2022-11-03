@@ -64,6 +64,14 @@ li{
     list-style-type: none;
 }
 
+.gwave{
+    background-color: #fff;
+}
+
+.wwave{
+    background-color: #d3d3d3;
+}
+
 /*header*/
 header{
     background-color: #255ee9;
@@ -155,13 +163,11 @@ nav div:last-child{
 /*main section + main section reverse*/
 .main-section{
     background-color: var(--white);
-    padding: var(--space-l) 0;
     height: 600px;
 }
 
 .main-section-gray{
     background-color: var(--lightgrey);
-    padding: var(--space-l) 0;
     height: 600px;
 }
 
