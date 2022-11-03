@@ -27,7 +27,7 @@
 /*generics*/
 body{
     font-family: sans-serif;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 button{
@@ -54,39 +54,47 @@ button{
 
 /*header*/
 header{
-    background-color: #add8e6;
+    background-color: #3161e0;
     padding: var(--space-m) 0;
+    color: var(--white);
 }
 nav{
-    background-color: var(--navorange);
     justify-content: space-between;
+    align-items: center;
 }
 
-nav > div, nav button{
+nav > div{
     flex-grow: 1;
     padding: var(--space-s);
+    align-items: baseline;
 }
 
 nav ul{
     flex-grow: 2;
     padding: var(--space-s);
     justify-content: center;
-    align-items: center;
 }
 
 nav li{
     list-style-type: none;
 }
 
-li a{
-    color: #000;
+li > a, div > a{
+    color: var(--white);
     text-decoration: none;
-    padding: 0 var(--space-s);
+    padding: 0 var(--space-m);
 }
 
-nav button{
-    background-color: var(--navorange);
+nav div:last-child{
     justify-content: flex-end;
+}
+
+.actions a{
+    background-color: var(--white);
+    justify-content: flex-end;
+    color: #000;
+    border-radius: 25px;
+    padding: 10px 15px;
 }
 
 /*header section*/
