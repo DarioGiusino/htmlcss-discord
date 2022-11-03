@@ -22,6 +22,7 @@
     --space-s: 5px;
     --space-m: 15px;
     --space-l: 40px;
+    --link-space: 10px 15px;
 }
 
 /*generics*/
@@ -54,7 +55,7 @@ button{
 
 /*header*/
 header{
-    background-color: #3161e0;
+    background-color: #255ee9;
     padding: var(--space-m) 0;
     color: var(--white);
 }
@@ -94,21 +95,58 @@ nav div:last-child{
     justify-content: flex-end;
     color: #000;
     border-radius: 25px;
-    padding: 10px 15px;
+    padding: var(--link-space);
 }
 
 /*header section*/
 .header-section{
-    background-color: var(--blue);
+    background-image: url("../img/jumbo.png");
+    background-size: cover;
     padding: var(--space-l) 0;
+    height: 500px;
     justify-content: center;
+    color: var(--white);
 }
 
 .main-desc{
-    background-color: var(--pink);
     flex-basis: 50%;
-    min-height: 400px;    
+    text-align: center;
 }
+
+#main-title{
+    font-size: 50px;
+    padding: 30px;
+}
+
+.main-paragraph{
+    font-size: 17px;
+    padding: 10px;
+}
+
+.header-section ul{
+    justify-content: center;
+    gap: 10px;
+    padding-top: 10px;
+}
+
+.header-section i{
+    margin-right: 10px;
+}
+
+.mac-download{
+    background-color: #fff;
+    color: #000;
+    border-radius: 25px;
+    padding: var(--link-space);
+}
+
+.browser-opener{
+    background-color: var(--black);
+    color: #fff;
+    border-radius: 25px;
+    padding: var(--link-space);
+}
+
 
 /*main section + main section reverse*/
 .main-section{
