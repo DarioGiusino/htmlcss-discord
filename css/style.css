@@ -267,17 +267,17 @@ section > div{
 /*footer*/
 footer{
     background-color: var(--black);
-    padding-top: var(--space-l);
-}
-
-.footer-box{
-    background-color: var(--footergreen);
-    align-items: center;
-    justify-content: space-between;
     padding: var(--space-m) 0;
 }
 
-footer .footer-logo, footer .footer-btn{
-    background-color: var(--footerpink);
-    padding: var(--space-s);
+.footer-box{
+    align-items: center;
+    justify-content: space-between;
+    padding: var(--space-s) 0;
+}
+
+.footer-btn{
+    background-color: var(--dis-purple);
+    border-radius: 25px;
+    padding: var(--link-space);    
 }
