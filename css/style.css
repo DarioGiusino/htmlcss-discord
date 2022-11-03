@@ -84,6 +84,7 @@ li > a, div > a{
     color: var(--white);
     text-decoration: none;
     padding: 0 var(--space-m);
+    font-weight: bold;
 }
 
 nav div:last-child{
@@ -129,7 +130,7 @@ nav div:last-child{
     padding-top: 10px;
 }
 
-.header-section i{
+i{
     margin-right: 10px;
 }
 
@@ -152,28 +153,58 @@ nav div:last-child{
 .main-section{
     background-color: var(--white);
     padding: var(--space-l) 0;
+    height: 600px;
 }
 
-.main-section-reverse{
+.main-section-gray{
     background-color: var(--lightgrey);
     padding: var(--space-l) 0;
+    height: 600px;
+}
+
+section > div{
+    height: 100%;
 }
 
 .img-section{
-    background-color: var(--lightblue);
     flex-basis: 60%;
-    min-height: 500px;
 }
 
 .text-section{
-    background-color: var(--lightpink);
     flex-basis: 40%;
 }
 
+.title-section{
+    padding: 40px;
+    font-size: 40px;
+}
+
+.paragraph-section{
+    padding: 0 40px;
+    font-size: 20px;
+}
+
+
+.main-section-gray.big{
+    height: 1000px;
+    text-align: center;
+}
+
 .recap{
-    background-color: var(--green);
     flex-basis: 100%;
-    min-height: 900px;
+}
+
+.title-download{
+    background-image: url("../img/stars.svg");
+    background-repeat: no-repeat;
+    background-position: top;
+    padding: 40px;
+    font-size: 28px;
+}
+
+.mac-download.purple{
+    background-color: #8ea1e1;
+    color: #fff;
 }
 
 /*footer section*/
